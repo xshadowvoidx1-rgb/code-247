@@ -1,4 +1,2 @@
-05:41:44 UTC — CODE SERVER UP
-https://gourmet-update-sydney-rendering.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2480 cloudflared pid=2481
+05:41:45 UTC — FATAL: code-server died
+[2026-09-13T05:41:39.590Z] error EISDIR: illegal operation on a directory, read
