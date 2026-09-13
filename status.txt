@@ -1,4 +1,1 @@
-13:39:12 UTC — CODE SERVER UP
-https://fabrics-wool-reserves-define.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2277 cloudflared pid=2278
+14:09:07 UTC — idle 1810s, starting graceful handover
