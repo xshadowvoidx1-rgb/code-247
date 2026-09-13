@@ -1,4 +1,2 @@
-04:50:10 UTC — CODE SERVER UP
-https://limiting-powered-weeks-blvd.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2418 cloudflared pid=2419
+04:50:11 UTC — FATAL: code-server died
+[2026-09-13T04:50:05.595Z] error Unknown option --bind
