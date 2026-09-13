@@ -1,4 +1,2 @@
-05:24:07 UTC — CODE SERVER UP
-https://scsi-genetics-maple-amongst.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2464 cloudflared pid=2465
+05:24:08 UTC — FATAL: code-server died
+[2026-09-13T05:24:02.899Z] error EISDIR: illegal operation on a directory, read
