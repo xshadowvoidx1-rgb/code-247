@@ -1,1 +1,4 @@
-05:04:20 UTC — workspace restored
+05:04:26 UTC — CODE SERVER UP
+https://shine-annually-jurisdiction-calculators.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2199 cloudflared pid=2200
