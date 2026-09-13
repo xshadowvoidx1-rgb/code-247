@@ -1,1 +1,4 @@
-05:25:35 UTC — workspace restored
+05:25:41 UTC — CODE SERVER UP
+https://penalty-der-reproduce-range.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2214 cloudflared pid=2215
