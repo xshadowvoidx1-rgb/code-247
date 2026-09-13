@@ -1,4 +1,2 @@
-04:51:04 UTC — CODE SERVER UP
-https://mem-belt-downloadable-baths.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2404 cloudflared pid=2405
+04:51:05 UTC — FATAL: code-server died
+[2026-09-13T04:51:00.094Z] error Unknown option --bind
