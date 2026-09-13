@@ -1,1 +1,4 @@
-05:13:56 UTC — workspace restored
+05:14:02 UTC — CODE SERVER UP
+https://fioricet-duke-glen-toronto.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2339 cloudflared pid=2340
