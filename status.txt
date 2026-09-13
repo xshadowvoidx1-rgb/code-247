@@ -1,1 +1,4 @@
-05:48:02 UTC — workspace restored
+05:48:08 UTC — CODE SERVER UP
+https://stud-initial-commented-synthetic.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2414 cloudflared pid=2415
