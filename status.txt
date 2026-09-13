@@ -1,1 +1,4 @@
-05:01:39 UTC — workspace restored
+05:01:45 UTC — CODE SERVER UP
+https://cant-newest-worked-messenger.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2187 cloudflared pid=2188
