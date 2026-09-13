@@ -1,4 +1,2 @@
-05:07:58 UTC — CODE SERVER UP
-https://rendering-licensed-people-syndication.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2421 cloudflared pid=2422
+05:07:59 UTC — FATAL: code-server died
+[2026-09-13T05:07:53.937Z] error EISDIR: illegal operation on a directory, read
