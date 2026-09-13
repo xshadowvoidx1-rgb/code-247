@@ -1,4 +1,2 @@
-05:42:50 UTC — CODE SERVER UP
-https://ultram-intensity-advertisers-auction.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2566 cloudflared pid=2567
+05:42:51 UTC — FATAL: code-server died
+[2026-09-13T05:42:46.112Z] error EISDIR: illegal operation on a directory, read
