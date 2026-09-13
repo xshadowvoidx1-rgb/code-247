@@ -1,4 +1,2 @@
-04:51:40 UTC — CODE SERVER UP
-https://conservative-verified-pool-digest.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2351 cloudflared pid=2352
+04:51:41 UTC — FATAL: code-server died
+[2026-09-13T04:51:35.400Z] error Unknown option --bind
