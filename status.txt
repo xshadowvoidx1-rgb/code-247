@@ -1,4 +1,2 @@
-09:38:07 UTC — CODE SERVER UP
-https://sierra-turner-calculators-consequence.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2221 cloudflared pid=2222
+09:38:09 UTC — FATAL: code-server died
+[2026-09-13T09:38:02.720Z] error EISDIR: illegal operation on a directory, read
