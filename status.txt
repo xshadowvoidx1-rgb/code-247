@@ -1,4 +1,1 @@
-15:10:40 UTC — CODE SERVER UP
-https://sleep-nirvana-stage-earth.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2455 cloudflared pid=2456
+15:40:25 UTC — idle 1800s, starting graceful handover
