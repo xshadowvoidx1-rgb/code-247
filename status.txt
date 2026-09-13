@@ -1,4 +1,2 @@
-05:01:12 UTC — CODE SERVER UP
-https://variation-drama-yarn-guam.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2201 cloudflared pid=2202
+05:01:13 UTC — FATAL: code-server died
+[2026-09-13T05:01:07.457Z] error EISDIR: illegal operation on a directory, read
