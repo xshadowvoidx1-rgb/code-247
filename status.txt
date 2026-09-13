@@ -1,4 +1,2 @@
-05:05:46 UTC — CODE SERVER UP
-https://communist-texture-writers-other.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2238 cloudflared pid=2239
+05:05:46 UTC — FATAL: code-server died
+[2026-09-13T05:05:41.201Z] error EISDIR: illegal operation on a directory, read
