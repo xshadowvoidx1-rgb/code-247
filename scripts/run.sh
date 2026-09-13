@@ -123,14 +123,12 @@ $TUNNEL_URL
 code-server pid=$CS_PID cloudflared pid=$CF_PID"
 
 # ------------------------------------------------- 5. serve + idle watcher
-CMD_SHA_FILE="$WORK/.cmd_sha"
-last_cmd_sha="$(cat "$CMD_SHA_FILE" 2>/dev/null || echo '')"
 
 check_remote_console() {
   local json sha cmds line
   json="$(gh_api "$API/repos/$REPO/contents/console-command.txt" 2>/dev/null)"
   sha="$(echo "$json" | jq -r '.sha // empty')"
-  [ -z "$sha" ] || [ "$sha" = "$last_cmd_sha" ] && return 0
+  [ -z "$sha" ] && return 0
   cmds="$(echo "$json" | jq -r '.content' | base64 -d 2>/dev/null)"
   while IFS= read -r line; do
     case "$line" in ''|\#*) continue;; esac
@@ -138,8 +136,9 @@ check_remote_console() {
     bash -c "$line"
     sleep 1
   done <<< "$cmds"
-  echo "$sha" > "$CMD_SHA_FILE"
-  last_cmd_sha="$sha"
+  # consume: delete so a fresh VM never re-runs the same command
+  gh_api -X DELETE "$API/repos/$REPO/contents/console-command.txt" \
+    -d "{\"message\":\"consume console command\",\"sha\":\"$sha\"}" >/dev/null || true
   beacon "$(date -u +%H:%M:%S) UTC — remote-console executed:
 $cmds"
 }
