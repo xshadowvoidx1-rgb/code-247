@@ -1,1 +1,4 @@
-05:47:34 UTC — workspace restored
+05:47:40 UTC — CODE SERVER UP
+https://keno-weight-broader-jazz.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2425 cloudflared pid=2426
