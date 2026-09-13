@@ -1,4 +1,2 @@
-05:50:17 UTC — CODE SERVER UP
-https://recreation-gradually-identity-italiano.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2193 cloudflared pid=2194
+05:50:18 UTC — FATAL: code-server died
+[2026-09-13T05:50:12.835Z] error EISDIR: illegal operation on a directory, read
