@@ -1,4 +1,2 @@
-09:34:11 UTC — CODE SERVER UP
-https://florence-shaw-tiger-achieved.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2432 cloudflared pid=2433
+09:34:19 UTC — FATAL: code-server died
+[2026-09-13T09:34:06.663Z] error EISDIR: illegal operation on a directory, read
