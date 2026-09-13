@@ -1,4 +1,2 @@
-04:53:13 UTC — CODE SERVER UP
-https://brave-ntsc-charity-commodity.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2417 cloudflared pid=2418
+04:53:14 UTC — FATAL: code-server died
+[2026-09-13T04:53:08.240Z] error EISDIR: illegal operation on a directory, read
