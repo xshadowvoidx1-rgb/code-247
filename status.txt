@@ -1,1 +1,4 @@
-05:51:47 UTC — workspace restored
+05:51:53 UTC — CODE SERVER UP
+https://employee-calcium-allan-rarely.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2448 cloudflared pid=2449
