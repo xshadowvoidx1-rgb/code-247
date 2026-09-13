@@ -1,4 +1,2 @@
-05:27:26 UTC — CODE SERVER UP
-https://forms-shadow-upgrading-address.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2396 cloudflared pid=2397
+05:27:27 UTC — FATAL: code-server died
+[2026-09-13T05:27:21.601Z] error EISDIR: illegal operation on a directory, read
