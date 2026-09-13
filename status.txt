@@ -1,1 +1,4 @@
-04:53:36 UTC — workspace restored
+04:53:42 UTC — CODE SERVER UP
+https://corp-dare-deadline-ted.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2419 cloudflared pid=2420
