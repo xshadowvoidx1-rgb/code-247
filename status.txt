@@ -1,4 +1,1 @@
-18:13:16 UTC — CODE SERVER UP
-https://forward-kirk-compression-concord.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2219 cloudflared pid=2220
+18:39:47 UTC — handover trigger received
