@@ -1,1 +1,4 @@
-05:53:57 UTC — workspace restored
+05:54:03 UTC — CODE SERVER UP
+https://hygiene-lift-analyzed-told.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2228 cloudflared pid=2229
