@@ -1,1 +1,4 @@
-04:50:04 UTC — workspace restored
+04:50:10 UTC — CODE SERVER UP
+https://limiting-powered-weeks-blvd.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2418 cloudflared pid=2419
