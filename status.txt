@@ -1,1 +1,4 @@
-04:58:32 UTC — workspace restored
+04:58:39 UTC — CODE SERVER UP
+https://match-votes-excerpt-proprietary.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2467 cloudflared pid=2468
