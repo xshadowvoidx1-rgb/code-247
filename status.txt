@@ -1,4 +1,2 @@
-05:02:49 UTC — CODE SERVER UP
-https://homeless-subsidiaries-origins-reply.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2428 cloudflared pid=2429
+05:02:50 UTC — FATAL: code-server died
+[2026-09-13T05:02:44.545Z] error EISDIR: illegal operation on a directory, read
