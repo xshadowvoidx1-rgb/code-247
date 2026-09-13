@@ -1,1 +1,4 @@
-05:24:33 UTC — workspace restored
+05:24:40 UTC — CODE SERVER UP
+https://manitoba-assists-explaining-consultation.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2276 cloudflared pid=2277
