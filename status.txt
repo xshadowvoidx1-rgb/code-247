@@ -1,4 +1,2 @@
-04:57:03 UTC — CODE SERVER UP
-https://strip-raises-humanitarian-expressions.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2427 cloudflared pid=2428
+04:57:04 UTC — FATAL: code-server died
+[2026-09-13T04:56:59.023Z] error EISDIR: illegal operation on a directory, read
