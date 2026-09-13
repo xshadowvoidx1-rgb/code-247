@@ -1,4 +1,2 @@
-05:26:16 UTC — CODE SERVER UP
-https://muze-incredible-produce-syndication.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2398 cloudflared pid=2399
+05:26:16 UTC — FATAL: code-server died
+[2026-09-13T05:26:11.413Z] error EISDIR: illegal operation on a directory, read
