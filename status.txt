@@ -1,1 +1,4 @@
-05:47:04 UTC — workspace restored
+05:47:10 UTC — CODE SERVER UP
+https://said-ourselves-rubber-palestinian.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2408 cloudflared pid=2409
