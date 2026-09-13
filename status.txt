@@ -1,1 +1,4 @@
-05:39:29 UTC — workspace restored
+05:39:35 UTC — CODE SERVER UP
+https://unlimited-acknowledged-mom-jackie.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2473 cloudflared pid=2474
