@@ -1,4 +1,2 @@
-05:36:46 UTC — CODE SERVER UP
-https://trucks-coupons-paper-early.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2428 cloudflared pid=2429
+05:36:47 UTC — FATAL: code-server died
+[2026-09-13T05:36:41.465Z] error EISDIR: illegal operation on a directory, read
