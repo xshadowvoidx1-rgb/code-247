@@ -1,4 +1,1 @@
-12:38:10 UTC — CODE SERVER UP
-https://idol-lecture-query-freeze.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2214 cloudflared pid=2215
+13:08:04 UTC — idle 1809s, starting graceful handover
