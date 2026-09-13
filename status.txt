@@ -1,4 +1,2 @@
-05:36:13 UTC — CODE SERVER UP
-https://players-behavioral-believes-supporters.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2204 cloudflared pid=2205
+05:36:13 UTC — FATAL: code-server died
+[2026-09-13T05:36:08.194Z] error EISDIR: illegal operation on a directory, read
