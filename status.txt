@@ -1,4 +1,2 @@
-05:32:20 UTC — CODE SERVER UP
-https://montreal-counted-sur-normally.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2330 cloudflared pid=2331
+05:32:21 UTC — FATAL: code-server died
+[2026-09-13T05:32:15.587Z] error EISDIR: illegal operation on a directory, read
