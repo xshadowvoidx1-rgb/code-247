@@ -1,4 +1,2 @@
-05:16:43 UTC — CODE SERVER UP
-https://asylum-plugins-south-theft.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2421 cloudflared pid=2422
+05:16:44 UTC — FATAL: code-server died
+[2026-09-13T05:16:38.485Z] error EISDIR: illegal operation on a directory, read
