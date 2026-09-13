@@ -1,4 +1,2 @@
-05:15:07 UTC — CODE SERVER UP
-https://sandy-plants-loading-enough.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2422 cloudflared pid=2423
+05:15:07 UTC — FATAL: code-server died
+[2026-09-13T05:15:02.280Z] error EISDIR: illegal operation on a directory, read
