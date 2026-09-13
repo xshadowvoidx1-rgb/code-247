@@ -1,1 +1,4 @@
-05:20:12 UTC — workspace restored
+05:20:19 UTC — CODE SERVER UP
+https://carrier-discounts-observer-sparc.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2253 cloudflared pid=2254
