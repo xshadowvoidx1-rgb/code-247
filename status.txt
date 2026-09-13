@@ -1,1 +1,4 @@
-05:29:33 UTC — workspace restored
+05:29:39 UTC — CODE SERVER UP
+https://hindu-giving-mixer-keith.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2483 cloudflared pid=2484
