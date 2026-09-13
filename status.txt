@@ -1,1 +1,4 @@
-04:52:07 UTC — workspace restored
+04:52:13 UTC — CODE SERVER UP
+https://qualify-sailing-congressional-nested.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2410 cloudflared pid=2411
