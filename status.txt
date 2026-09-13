@@ -1,4 +1,2 @@
-05:03:54 UTC — CODE SERVER UP
-https://hindu-compensation-restoration-hands.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2440 cloudflared pid=2441
+05:03:55 UTC — FATAL: code-server died
+[2026-09-13T05:03:49.583Z] error EISDIR: illegal operation on a directory, read
