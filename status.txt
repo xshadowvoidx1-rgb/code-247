@@ -1,1 +1,4 @@
-17:42:40 UTC — workspace restored
+17:42:46 UTC — CODE SERVER UP
+https://dui-mason-durham-southeast.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2494 cloudflared pid=2495
