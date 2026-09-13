@@ -1,1 +1,4 @@
-05:30:37 UTC — workspace restored
+05:30:44 UTC — CODE SERVER UP
+https://watts-recommend-martha-entries.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=3138 cloudflared pid=3139
