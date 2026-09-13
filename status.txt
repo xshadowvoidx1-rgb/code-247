@@ -1,4 +1,2 @@
-09:39:29 UTC — CODE SERVER UP
-https://athletes-elephant-answer-newsletter.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2501 cloudflared pid=2502
+09:39:30 UTC — FATAL: code-server died
+[2026-09-13T09:39:24.534Z] error EISDIR: illegal operation on a directory, read
