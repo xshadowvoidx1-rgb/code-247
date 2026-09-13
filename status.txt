@@ -1,1 +1,4 @@
-05:38:58 UTC — workspace restored
+05:39:04 UTC — CODE SERVER UP
+https://sheets-eternal-food-rev.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2421 cloudflared pid=2422
