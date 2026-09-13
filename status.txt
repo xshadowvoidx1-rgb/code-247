@@ -1,4 +1,2 @@
-09:38:51 UTC — CODE SERVER UP
-https://come-tract-upgrading-athletic.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2324 cloudflared pid=2325
+09:38:52 UTC — FATAL: code-server died
+[2026-09-13T09:38:46.846Z] error EISDIR: illegal operation on a directory, read
