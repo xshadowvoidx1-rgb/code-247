@@ -1,4 +1,1 @@
-17:42:46 UTC — CODE SERVER UP
-https://dui-mason-durham-southeast.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2494 cloudflared pid=2495
+18:12:41 UTC — idle 1811s, starting graceful handover
