@@ -1,4 +1,2 @@
-05:12:55 UTC — CODE SERVER UP
-https://therapist-lexington-communities-school.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2271 cloudflared pid=2272
+05:12:56 UTC — FATAL: code-server died
+[2026-09-13T05:12:50.742Z] error EISDIR: illegal operation on a directory, read
