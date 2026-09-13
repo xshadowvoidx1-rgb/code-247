@@ -1,1 +1,4 @@
-05:44:25 UTC — workspace restored
+05:44:31 UTC — CODE SERVER UP
+https://grants-supports-worlds-resumes.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2439 cloudflared pid=2440
