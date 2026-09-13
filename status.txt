@@ -1,1 +1,4 @@
-05:50:44 UTC — workspace restored
+05:50:51 UTC — CODE SERVER UP
+https://similarly-columbus-relations-trade.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2411 cloudflared pid=2412
