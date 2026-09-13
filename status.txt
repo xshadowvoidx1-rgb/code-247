@@ -1,1 +1,4 @@
-04:55:16 UTC — workspace restored
+04:55:23 UTC — CODE SERVER UP
+https://residents-fantasy-assignment-mine.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2406 cloudflared pid=2407
