@@ -1,4 +1,2 @@
-05:08:28 UTC — CODE SERVER UP
-https://yukon-mel-sewing-front.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2193 cloudflared pid=2194
+05:08:28 UTC — FATAL: code-server died
+[2026-09-13T05:08:23.368Z] error EISDIR: illegal operation on a directory, read
