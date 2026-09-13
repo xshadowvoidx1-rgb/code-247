@@ -1,4 +1,2 @@
-04:58:06 UTC — CODE SERVER UP
-https://towns-cargo-hero-fcc.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2441 cloudflared pid=2442
+04:58:07 UTC — FATAL: code-server died
+[2026-09-13T04:58:02.031Z] error EISDIR: illegal operation on a directory, read
