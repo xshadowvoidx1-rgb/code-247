@@ -1,1 +1,4 @@
-05:45:30 UTC — workspace restored
+05:45:36 UTC — CODE SERVER UP
+https://portions-payment-drag-stickers.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2428 cloudflared pid=2429
