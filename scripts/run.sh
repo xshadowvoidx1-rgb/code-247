@@ -87,7 +87,7 @@ CS_PID=$!
 if [ -n "${TUNNEL_TOKEN:-}" ]; then
   # named tunnel — persistent URL, survives every VM swap
   TUNNEL_URL="https://codeserver.sryze.cc"
-  "$WORK/cloudflared" tunnel run --token "$TUNNEL_TOKEN" --no-autoupdate \
+  "$WORK/cloudflared" --no-autoupdate tunnel run --token "$TUNNEL_TOKEN" \
     > "$WORK/tunnel.log" 2>&1 &
   CF_PID=$!
   for i in $(seq 1 24); do
