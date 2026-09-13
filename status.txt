@@ -1,1 +1,4 @@
-05:07:20 UTC — workspace restored
+05:07:26 UTC — CODE SERVER UP
+https://ons-outlets-extras-fighting.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2418 cloudflared pid=2419
