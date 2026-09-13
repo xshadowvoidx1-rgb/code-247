@@ -13,10 +13,19 @@ jobs:
     timeout-minutes: 355
     permissions:
       contents: read
-    env:
-      GH_PAT: ${{ secrets.GH_PAT }}
-      CODE_PASSWORD: ${{ secrets.CODE_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
-      - name: Run coding environment cycle
-        run: bash scripts/run.sh
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Lint scripts
+        run: |
+          echo "checking scripts"
+          bash -n scripts/run.sh
+          bash -n scripts/watchdog.sh
+          echo "syntax OK"
+      - name: Smoke test
+        run: |
+          node -e "console.log('node ok', process.version)"
+          echo "smoke test passed"
