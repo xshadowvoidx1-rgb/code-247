@@ -1,4 +1,2 @@
-05:29:09 UTC — CODE SERVER UP
-https://ottawa-ideal-partly-stretch.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2430 cloudflared pid=2431
+05:29:10 UTC — FATAL: code-server died
+[2026-09-13T05:29:04.499Z] error EISDIR: illegal operation on a directory, read
