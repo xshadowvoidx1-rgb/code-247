@@ -1,4 +1,2 @@
-05:42:19 UTC — CODE SERVER UP
-https://waves-allows-volleyball-wishing.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2267 cloudflared pid=2268
+05:42:20 UTC — FATAL: code-server died
+[2026-09-13T05:42:14.267Z] error EISDIR: illegal operation on a directory, read
