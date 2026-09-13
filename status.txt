@@ -1,4 +1,2 @@
-04:55:57 UTC — CODE SERVER UP
-https://consortium-willing-writings-metals.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2436 cloudflared pid=2437
+04:55:58 UTC — FATAL: code-server died
+[2026-09-13T04:55:52.904Z] error EISDIR: illegal operation on a directory, read
