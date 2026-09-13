@@ -1,1 +1,4 @@
-05:27:20 UTC — workspace restored
+05:27:26 UTC — CODE SERVER UP
+https://forms-shadow-upgrading-address.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2396 cloudflared pid=2397
