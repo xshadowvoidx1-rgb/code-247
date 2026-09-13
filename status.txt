@@ -1,4 +1,2 @@
-09:37:03 UTC — CODE SERVER UP
-https://clicks-mortgages-acne-chem.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2336 cloudflared pid=2337
+09:37:04 UTC — FATAL: code-server died
+[2026-09-13T09:36:58.331Z] error EISDIR: illegal operation on a directory, read
