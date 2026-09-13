@@ -1,4 +1,2 @@
-05:06:19 UTC — CODE SERVER UP
-https://receives-brake-editor-taylor.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2199 cloudflared pid=2200
+05:06:20 UTC — FATAL: code-server died
+[2026-09-13T05:06:14.648Z] error EISDIR: illegal operation on a directory, read
