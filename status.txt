@@ -1,1 +1,4 @@
-13:08:30 UTC — workspace restored
+13:08:36 UTC — CODE SERVER UP
+https://hidden-scheduled-expo-twin.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2496 cloudflared pid=2497
