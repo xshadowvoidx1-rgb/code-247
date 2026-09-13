@@ -1,1 +1,4 @@
-05:53:24 UTC — workspace restored
+05:53:31 UTC — CODE SERVER UP
+https://striking-imagine-laws-causing.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2414 cloudflared pid=2415
