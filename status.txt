@@ -1,1 +1,4 @@
-05:11:41 UTC — workspace restored
+05:11:47 UTC — CODE SERVER UP
+https://missing-hall-nine-staff.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2209 cloudflared pid=2210
