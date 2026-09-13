@@ -1,1 +1,4 @@
-05:12:48 UTC — workspace restored
+05:12:55 UTC — CODE SERVER UP
+https://therapist-lexington-communities-school.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2271 cloudflared pid=2272
