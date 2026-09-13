@@ -1,0 +1,25 @@
+name: Code Watchdog
+
+# Event-driven heal: fires the instant any Code Server run completes
+# (crash/cancel/timeout). Cron kept as backstop only (GitHub cron unreliable).
+on:
+  workflow_run:
+    workflows: ["Code Server"]
+    types: [completed]
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    # Runs on every completion including successes — a graceful exit whose
+    # successor-dispatch failed still reports success; the script's
+    # active/queued check is the real gate.
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure server running
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: bash scripts/watchdog.sh

@@ -1,0 +1,22 @@
+name: Code Server
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: code-server
+  cancel-in-progress: false
+
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    permissions:
+      contents: read
+    env:
+      GH_PAT: ${{ secrets.GH_PAT }}
+      CODE_PASSWORD: ${{ secrets.CODE_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run coding environment cycle
+        run: bash scripts/run.sh
