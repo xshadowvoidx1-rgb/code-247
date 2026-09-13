@@ -1,4 +1,2 @@
-05:04:26 UTC — CODE SERVER UP
-https://shine-annually-jurisdiction-calculators.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2199 cloudflared pid=2200
+05:04:27 UTC — FATAL: code-server died
+[2026-09-13T05:04:21.871Z] error EISDIR: illegal operation on a directory, read
