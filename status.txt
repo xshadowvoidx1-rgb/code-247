@@ -1,4 +1,2 @@
-05:26:54 UTC — CODE SERVER UP
-https://appeals-starsmerchant-josh-galaxy.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2424 cloudflared pid=2425
+05:26:55 UTC — FATAL: code-server died
+[2026-09-13T05:26:49.312Z] error EISDIR: illegal operation on a directory, read
