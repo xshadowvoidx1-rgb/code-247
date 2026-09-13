@@ -84,20 +84,37 @@ touch "$WORK/cs-config/config.yaml"
   --auth password > "$WORK/cs.log" 2>&1 &
 CS_PID=$!
 
-"$WORK/cloudflared" tunnel --url http://127.0.0.1:8080 --no-autoupdate > "$WORK/tunnel.log" 2>&1 &
-CF_PID=$!
-
-# tunnel URL appears in cloudflared's log within ~10s
-TUNNEL_URL=""
-for i in $(seq 1 24); do
-  TUNNEL_URL="$(grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com' "$WORK/tunnel.log" | head -1)"
-  [ -n "$TUNNEL_URL" ] && break
-  sleep 5
-done
-if [ -z "$TUNNEL_URL" ]; then
-  beacon "$(date -u +%H:%M:%S) UTC — FATAL: no tunnel URL
+if [ -n "${TUNNEL_TOKEN:-}" ]; then
+  # named tunnel — persistent URL, survives every VM swap
+  TUNNEL_URL="https://codeserver.sryze.cc"
+  "$WORK/cloudflared" tunnel run --token "$TUNNEL_TOKEN" --no-autoupdate \
+    > "$WORK/tunnel.log" 2>&1 &
+  CF_PID=$!
+  for i in $(seq 1 24); do
+    grep -q "Registered tunnel connection" "$WORK/tunnel.log" && break
+    kill -0 "$CF_PID" 2>/dev/null || break
+    sleep 5
+  done
+  if ! grep -q "Registered tunnel connection" "$WORK/tunnel.log"; then
+    beacon "$(date -u +%H:%M:%S) UTC — FATAL: named tunnel did not connect
 $(tail -c 1500 "$WORK/tunnel.log")"
-  kill $CS_PID $CF_PID 2>/dev/null; exit 1
+    kill $CS_PID $CF_PID 2>/dev/null; exit 1
+  fi
+else
+  # quick tunnel fallback — random URL per boot
+  "$WORK/cloudflared" tunnel --url http://127.0.0.1:8080 --no-autoupdate > "$WORK/tunnel.log" 2>&1 &
+  CF_PID=$!
+  TUNNEL_URL=""
+  for i in $(seq 1 24); do
+    TUNNEL_URL="$(grep -oE 'https://[a-z0-9-]+\.trycloudflare\.com' "$WORK/tunnel.log" | head -1)"
+    [ -n "$TUNNEL_URL" ] && break
+    sleep 5
+  done
+  if [ -z "$TUNNEL_URL" ]; then
+    beacon "$(date -u +%H:%M:%S) UTC — FATAL: no tunnel URL
+$(tail -c 1500 "$WORK/tunnel.log")"
+    kill $CS_PID $CF_PID 2>/dev/null; exit 1
+  fi
 fi
 log "TUNNEL: $TUNNEL_URL"
 beacon "$(date -u +%H:%M:%S) UTC — CODE SERVER UP
