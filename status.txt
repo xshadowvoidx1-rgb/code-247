@@ -1,4 +1,2 @@
-05:18:11 UTC — CODE SERVER UP
-https://montana-commissioners-cow-premises.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2197 cloudflared pid=2198
+05:18:11 UTC — FATAL: code-server died
+[2026-09-13T05:18:06.231Z] error EISDIR: illegal operation on a directory, read
