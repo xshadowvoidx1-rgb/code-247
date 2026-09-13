@@ -1,2 +1,1 @@
-05:14:36 UTC — FATAL: code-server died
-[2026-09-13T05:14:30.285Z] error EISDIR: illegal operation on a directory, read
+05:14:59 UTC — code-server 4.137.0 b11dabdaca0d3369986975be285db92c8795cea5 with Code 1.137.0
