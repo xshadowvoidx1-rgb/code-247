@@ -1,1 +1,4 @@
-09:39:23 UTC — workspace restored
+09:39:29 UTC — CODE SERVER UP
+https://athletes-elephant-answer-newsletter.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2501 cloudflared pid=2502
