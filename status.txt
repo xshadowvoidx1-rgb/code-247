@@ -1,4 +1,2 @@
-05:20:50 UTC — CODE SERVER UP
-https://brain-index-goals-smart.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2359 cloudflared pid=2360
+05:20:51 UTC — FATAL: code-server died
+[2026-09-13T05:20:45.766Z] error EISDIR: illegal operation on a directory, read
