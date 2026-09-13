@@ -1,1 +1,4 @@
-05:23:29 UTC — workspace restored
+05:23:35 UTC — CODE SERVER UP
+https://gathered-resulting-lance-fax.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2425 cloudflared pid=2426
