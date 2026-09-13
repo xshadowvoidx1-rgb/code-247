@@ -76,9 +76,11 @@ export PASSWORD="$CODE_PASSWORD"
 mkdir -p "$WORK/cs-data" "$WORK/cs-config"
 [ -d "$WS/cs-user-data" ] && { mkdir -p "$WORK/cs-data"; cp -r "$WS/cs-user-data/." "$WORK/cs-data/" 2>/dev/null || true; }
 [ -d "$WS/cs-user-config" ] && cp -r "$WS/cs-user-config/." "$WORK/cs-config/" 2>/dev/null || true
+# --config wants a FILE (passing the dir caused EISDIR crash); create it if absent
+touch "$WORK/cs-config/config.yaml"
 
 "$CS" --host 127.0.0.1 --port 8080 \
-  --user-data-dir "$WORK/cs-data" --config "$WORK/cs-config" \
+  --user-data-dir "$WORK/cs-data" --config "$WORK/cs-config/config.yaml" \
   --auth password > "$WORK/cs.log" 2>&1 &
 CS_PID=$!
 
