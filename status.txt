@@ -1,1 +1,4 @@
-05:24:01 UTC — workspace restored
+05:24:07 UTC — CODE SERVER UP
+https://scsi-genetics-maple-amongst.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2464 cloudflared pid=2465
