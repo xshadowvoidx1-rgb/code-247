@@ -1,4 +1,2 @@
-05:40:36 UTC — CODE SERVER UP
-https://retreat-woods-recovery-relate.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2494 cloudflared pid=2495
+05:40:37 UTC — FATAL: code-server died
+[2026-09-13T05:40:31.940Z] error EISDIR: illegal operation on a directory, read
