@@ -1,4 +1,1 @@
-14:40:04 UTC — CODE SERVER UP
-https://yeah-bald-expand-bidder.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2435 cloudflared pid=2436
+15:10:08 UTC — idle 1819s, starting graceful handover
