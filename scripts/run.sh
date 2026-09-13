@@ -77,7 +77,7 @@ mkdir -p "$WORK/cs-data" "$WORK/cs-config"
 [ -d "$WS/cs-user-data" ] && { mkdir -p "$WORK/cs-data"; cp -r "$WS/cs-user-data/." "$WORK/cs-data/" 2>/dev/null || true; }
 [ -d "$WS/cs-user-config" ] && cp -r "$WS/cs-user-config/." "$WORK/cs-config/" 2>/dev/null || true
 
-"$CS" --bind 127.0.0.1 --port 8080 \
+"$CS" --host 127.0.0.1 --port 8080 \
   --user-data-dir "$WORK/cs-data" --config "$WORK/cs-config" \
   --auth password > "$WORK/cs.log" 2>&1 &
 CS_PID=$!
