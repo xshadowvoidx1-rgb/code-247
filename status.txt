@@ -1,1 +1,4 @@
-16:41:39 UTC — workspace restored
+16:41:45 UTC — CODE SERVER UP
+https://pleasant-soldiers-tales-harper.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2491 cloudflared pid=2492
