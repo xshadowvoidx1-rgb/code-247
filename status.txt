@@ -1,4 +1,2 @@
-05:00:41 UTC — CODE SERVER UP
-https://diagnostic-drinking-guam-processes.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2428 cloudflared pid=2429
+05:00:41 UTC — FATAL: code-server died
+[2026-09-13T05:00:36.215Z] error EISDIR: illegal operation on a directory, read
