@@ -1,4 +1,2 @@
-05:35:42 UTC — CODE SERVER UP
-https://warming-various-tahoe-viruses.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2477 cloudflared pid=2478
+05:35:43 UTC — FATAL: code-server died
+[2026-09-13T05:35:37.648Z] error EISDIR: illegal operation on a directory, read
