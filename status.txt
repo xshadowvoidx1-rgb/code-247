@@ -1,1 +1,4 @@
-05:52:50 UTC — workspace restored
+05:52:57 UTC — CODE SERVER UP
+https://jackson-street-thanksgiving-consortium.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2349 cloudflared pid=2350
