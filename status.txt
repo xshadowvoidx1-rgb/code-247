@@ -1,1 +1,4 @@
-11:52:42 UTC — workspace restored
+11:52:49 UTC — CODE SERVER UP
+https://giving-products-poster-where.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2422 cloudflared pid=2423
