@@ -1,4 +1,2 @@
-05:10:12 UTC — CODE SERVER UP
-https://devices-positioning-fence-illinois.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2479 cloudflared pid=2480
+05:10:13 UTC — FATAL: code-server died
+[2026-09-13T05:10:07.466Z] error EISDIR: illegal operation on a directory, read
