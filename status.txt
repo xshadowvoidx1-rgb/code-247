@@ -1,1 +1,4 @@
-05:14:28 UTC — workspace restored
+05:14:35 UTC — CODE SERVER UP
+https://installations-estimation-miscellaneous-portsmouth.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2277 cloudflared pid=2278
