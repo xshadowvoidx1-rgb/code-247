@@ -1,2 +1,1 @@
-09:34:19 UTC — FATAL: code-server died
-[2026-09-13T09:34:06.663Z] error EISDIR: illegal operation on a directory, read
+09:34:59 UTC — workspace restored
