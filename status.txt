@@ -1,4 +1,2 @@
-04:59:10 UTC — CODE SERVER UP
-https://easter-promotion-renewable-basketball.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2423 cloudflared pid=2424
+04:59:11 UTC — FATAL: code-server died
+[2026-09-13T04:59:05.803Z] error EISDIR: illegal operation on a directory, read
