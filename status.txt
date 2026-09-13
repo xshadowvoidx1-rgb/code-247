@@ -1,1 +1,4 @@
-05:19:09 UTC — workspace restored
+05:19:15 UTC — CODE SERVER UP
+https://film-vhs-knows-plane.trycloudflare.com
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2400 cloudflared pid=2401
