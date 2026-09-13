@@ -1,4 +1,2 @@
-05:20:19 UTC — CODE SERVER UP
-https://carrier-discounts-observer-sparc.trycloudflare.com
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2253 cloudflared pid=2254
+05:20:20 UTC — FATAL: code-server died
+[2026-09-13T05:20:14.682Z] error EISDIR: illegal operation on a directory, read
