@@ -1,1 +1,4 @@
-15:36:40 UTC — workspace restored
+15:36:47 UTC — CODE SERVER UP
+https://codeserver.sryze.cc
+(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
+code-server pid=2407 cloudflared pid=2408
