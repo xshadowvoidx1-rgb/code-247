@@ -1,0 +1,1 @@
+cores=4 | ram=15988MB | disk=145G size, 85G free | cpu= INTEL(R) XEON(R) PLATINUM 8573C | flags=amx_bf amx_int amx_tile avx2 avx512bw avx512cd avx512dq avx512f avx512ifma avx512vbmi avx512vl avx_vnni 
