@@ -1,4 +1,1 @@
-04:35:21 UTC — CODE SERVER UP
-https://codeserver.sryze.cc
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2492 cloudflared pid=2493
+05:05:13 UTC — idle 1809s, starting graceful handover
