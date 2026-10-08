@@ -1,1 +1,1 @@
-08:18:29 UTC — idle 1807s, starting graceful handover
+08:18:31 UTC — snapshot built 17M, rotating release
