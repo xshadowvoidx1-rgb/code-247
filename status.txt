@@ -1,4 +1,16 @@
-13:03:01 UTC — CODE SERVER UP
-https://codeserver.sryze.cc
-(password is the CODE_PASSWORD secret — ask Jarvis or check your local _artifacts/code-password.txt)
-code-server pid=2483 cloudflared pid=2484
+13:18:58 UTC — FATAL: tunnel died
+ction successful" run_id=6b324b2a-85e1-446c-9ed7-f4589098373f status=pass target=region1.v2.argotunnel.com
+2026-10-10T13:03:02Z INF precheck component="TCP Connectivity" details="HTTP/2 connection successful" run_id=6b324b2a-85e1-446c-9ed7-f4589098373f status=pass target=region2.v2.argotunnel.com
+2026-10-10T13:03:02Z INF precheck component="Cloudflare API" details="API is reachable" run_id=6b324b2a-85e1-446c-9ed7-f4589098373f status=pass target=api.cloudflare.com:443
+2026-10-10T13:03:02Z INF precheck complete hard_fail=false run_id=6b324b2a-85e1-446c-9ed7-f4589098373f suggested_protocol=quic
+2026-10-10T13:18:09Z INF Initiating graceful shutdown due to signal terminated ...
+2026-10-10T13:18:09Z INF Retrying connection in up to 2s connIndex=3 event=0 ip=198.41.192.107
+2026-10-10T13:18:09Z ERR Connection terminated connIndex=3
+2026-10-10T13:18:09Z ERR Serve tunnel error error="control stream error: Error shutting down control stream: rpc: connection closed" connIndex=2 event=0 ip=198.41.200.53
+2026-10-10T13:18:09Z INF Retrying connection in up to 2s connIndex=1 event=0 ip=198.41.192.67
+2026-10-10T13:18:09Z INF Retrying connection in up to 2s connIndex=2 event=0 ip=198.41.200.53
+2026-10-10T13:18:09Z ERR Connection terminated connIndex=1
+2026-10-10T13:18:09Z ERR Connection terminated connIndex=2
+2026-10-10T13:18:09Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.41.200.63
+2026-10-10T13:18:39Z INF Metrics server stopped
+2026-10-10T13:18:39Z INF Tunnel server stopped
