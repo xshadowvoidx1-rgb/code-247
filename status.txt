@@ -1,1 +1,1 @@
-08:49:32 UTC — snapshot built 344K, rotating release
+08:49:39 UTC — cycle complete, successor dispatched
