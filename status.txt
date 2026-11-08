@@ -1,1 +1,1 @@
-08:47:47 UTC — workspace restored
+08:47:48 UTC — FATAL: cloudflared download failed
