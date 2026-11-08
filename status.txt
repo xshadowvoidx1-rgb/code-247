@@ -1,1 +1,1 @@
-10:25:57 UTC — cycle complete, successor dispatched
+10:26:58 UTC — FATAL: code-server install failed
